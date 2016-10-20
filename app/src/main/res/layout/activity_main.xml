@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cmperez.ootd.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="25"
+        android:id="@+id/editText3"
+        android:layout_marginBottom="111dp"
+        android:layout_above="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+
+    <TextView
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp" />
+
+    <Button
+        android:id="@+id/buttonSomething"
+        android:text="Click Here"
+        android:typeface="serif"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textview"
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:typeface="serif"
+        android:textSize="25sp"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:typeface="serif"
+        android:textSize="25sp"
+        android:id="@+id/editText4"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="@string/login"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/buttonSomething"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:ems="25"
+        android:id="@+id/editText"
+        android:focusable="true"
+        android:layout_marginBottom="56dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/editText2"
+        android:layout_alignStart="@+id/buttonSomething"
+        android:layout_marginStart="12dp" />
+
+
+</RelativeLayout>

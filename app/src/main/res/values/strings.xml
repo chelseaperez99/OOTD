@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OOTD</string>
+    <string name="text">New to the app? Click here     to make an account!</string>
+    <string name="password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="login">login</string>
+</resources>
