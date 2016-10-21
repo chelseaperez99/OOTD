@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView2"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="@string/last"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+
+    <CheckBox android:id="@+id/checkbox_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkone"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <CheckBox android:id="@+id/checkbox_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checktwo"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable"
+        android:textColor="@color/colorPrimaryDark"
+        android:typeface="serif"/>
+
+    <CheckBox android:id="@+id/checkbox_check_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkthree"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <CheckBox android:id="@+id/checkbox_check_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkfour"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+       android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@color/colorAccent"
+        android:typeface="serif"/>
+</LinearLayout>

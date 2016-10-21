@@ -4,4 +4,13 @@
     <string name="password">Password:</string>
     <string name="username">Username:</string>
     <string name="login">login</string>
+    <string name="first">First Name:</string>
+    <string name="last">Last Name:</string>
+    <string name="email">E-mail:</string>
+    <string name="enable">Enable:</string>
+    <string name="gender">Gender:</string>
+    <string name="checkone">Female</string>
+    <string name="checktwo">Male</string>
+    <string name="checkthree">Location for weather services and forecast</string>
+    <string name="checkfour">Phone to sync calendar and events</string>
 </resources>
