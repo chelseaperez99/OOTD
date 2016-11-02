@@ -132,6 +132,15 @@ public class Something extends AppCompatActivity {
         CheckBox checkbox_one = (CheckBox) findViewById(R.id.checkbox_one);
         checkbox_one.setOnClickListener(onClickListener);
 
+        CheckBox checkbox_two = (CheckBox) findViewById(R.id.checkbox_two);
+        checkbox_two.setOnClickListener(onClickListener);
+
+        CheckBox checkbox_three = (CheckBox) findViewById(R.id.checkbox_check_three);
+        checkbox_three.setOnClickListener(onClickListener);
+
+        CheckBox checkbox_four = (CheckBox) findViewById(R.id.checkbox_check_four);
+        checkbox_four.setOnClickListener(onClickListener);
+
     }
 
     public View.OnClickListener onClickListener = new View.OnClickListener() {
@@ -148,7 +157,7 @@ public class Something extends AppCompatActivity {
                     }
 
                     break;
-                case R.id.checkbox_two
+                case R.id.checkbox_two:
                     CheckBox two = (CheckBox)findViewById(R.id.checkbox_two);
                     if(two.isChecked()){
                         male = true;

@@ -6,10 +6,61 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose from the list, your personal style:
-                (Check all that apply)"
+        android:text="@string/title"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox android:id="@+id/casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/casual"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox android:id="@+id/elegantclassy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comfylazy"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/casual"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox android:id="@+id/comfylazy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elegantclassy"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/professional"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <CheckBox android:id="@+id/professional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/professional"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/elegantclassy"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@color/colorAccent"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp" />
 
 </RelativeLayout>

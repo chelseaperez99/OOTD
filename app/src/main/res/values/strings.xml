@@ -4,6 +4,7 @@
     <string name="password">Password:</string>
     <string name="username">Username:</string>
     <string name="login">login</string>
+    
     <string name="first">First Name:</string>
     <string name="last">Last Name:</string>
     <string name="email">E-mail:</string>
@@ -13,4 +14,13 @@
     <string name="checktwo">Male</string>
     <string name="checkthree">Location for weather services and forecast</string>
     <string name="checkfour">Phone to sync calendar and events</string>
+
+    <string name="title">Choose from the list, your personal style:
+                (Check all that apply)</string>
+    <string name="comfylazy">Comfy/Lazy</string>
+    <string name="casual">Casual</string>
+    <string name="elegantclassy">Elegant/Classy</string>
+    <string name="professional">Professional</string>
+
+    <string name="home">Homescreen</string>
 </resources>
