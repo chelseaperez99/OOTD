@@ -3,8 +3,18 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <item android:id="@+id/menu_save"
-        android:title="Settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <item android:id="@+id/userprofile"
+        android:title="@string/edituser" />
+
+    <item android:id="@+id/personalstyle"
+        android:title="@string/editclothes" />
+
+    <item android:id="@+id/location"
+        android:title="@string/editlocation"/>
+
+    <item android:id="@+id/workconditions"
+        android:title="@string/editwork" />
+
+    <item android:id="@+id/signingout"
+        android:title="@string/signout" />
 </menu>
