@@ -23,4 +23,5 @@
     <string name="professional">Professional</string>
 
     <string name="home">Homescreen</string>
+    <string name ="edit">Edit Profile</string>
 </resources>

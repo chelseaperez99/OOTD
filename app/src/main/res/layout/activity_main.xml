@@ -12,6 +12,7 @@
     android:background="@color/colorPrimary">
 
     <TextView
+        android:id="@+id/New"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text"
@@ -20,27 +21,26 @@
         android:textSize="25sp"
         android:layout_marginBottom="17dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
+        android:id="@+id/userspace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:inputType="textEmailAddress"
         android:ems="25"
-        android:id="@+id/editText3"
         android:layout_marginBottom="111dp"
         android:layout_above="@+id/login"
         android:layout_toStartOf="@+id/login" />
 
     <TextView
+        android:id="@+id/ootd"
         android:text="@string/app_name"
         android:textColor="@color/colorPrimaryDark"
         android:typeface="serif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textview"
         android:textSize="45sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -55,35 +55,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_toEndOf="@+id/textview"
+        android:layout_alignBaseline="@+id/New"
+        android:layout_alignBottom="@+id/New"
+        android:layout_toEndOf="@+id/ootd"
         android:layout_marginStart="18dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/username"
-        android:typeface="serif"
-        android:textSize="25sp"
-        android:id="@+id/editText2"
-        android:layout_above="@+id/editText3"
-        android:layout_alignParentStart="true" />
-
-    <TextView
+        android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password"
         android:typeface="serif"
         android:textSize="25sp"
-        android:id="@+id/editText4"
-        android:layout_above="@+id/editText"
+        android:layout_above="@+id/passspace"
         android:layout_alignParentStart="true" />
 
     <Button
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/login"
         android:text="@string/login"
         android:background="@color/colorAccent"
         android:textColor="@color/colorPrimaryDark"
@@ -92,11 +82,11 @@
         android:layout_alignParentEnd="true" />
 
     <EditText
+        android:id="@+id/passspace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:inputType="textPassword"
-        android:id="@+id/editText"
         android:ems="25"
         android:focusable="true"
         android:layout_marginBottom="56dp"
@@ -108,10 +98,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/images"
-        android:layout_marginBottom="46dp"
-        android:layout_above="@+id/editText2"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/username"
         android:layout_alignStart="@+id/click"
-        android:layout_marginStart="12dp" />
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:typeface="serif"
+        android:textSize="25sp"
+        android:layout_above="@+id/userspace"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
