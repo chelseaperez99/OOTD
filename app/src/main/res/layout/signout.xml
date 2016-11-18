@@ -3,4 +3,35 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@color/red">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signing Out?"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:id="@+id/signingoutt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:id="@+id/no"
+        android:layout_below="@+id/signingoutt"
+        android:layout_alignEnd="@+id/signingoutt"
+        android:layout_marginTop="62dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/yes"
+        android:layout_alignBaseline="@+id/no"
+        android:layout_alignBottom="@+id/no"
+        android:layout_alignStart="@+id/signingoutt"
+        android:background="@color/white"/>
+
 </RelativeLayout>
